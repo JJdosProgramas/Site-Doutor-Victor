@@ -1,0 +1,148 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  background-color: #fdfffe;
+  height: 46em;
+  
+}
+
+.titulo{
+  font-size: 40px;
+  color: #313131;
+}
+
+.faq {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.faqitens {
+  background-color: #a2cfba;
+  list-style: none;
+  cursor: pointer;
+  height: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.faqitensa {
+  background-color: #a2cfba;
+  list-style: none;
+  cursor: pointer;
+  height: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* TÍTULO */
+.faqitens h1 {
+  color: #313131;
+  font-size: 20px;
+  text-align: center;
+
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+
+  position: absolute;
+}
+
+.faqitensa h1 {
+  color: #313131;
+  font-size: 20px;
+  text-align: center;
+
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+
+  position: absolute;
+}
+
+/* TEXTO */
+.faqitens p {
+  font-size: 18px;
+  text-align: center;
+
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+
+  position: absolute;
+}
+
+.faqitensa p {
+  font-size: 18px;
+  text-align: left;
+  margin-left: 30px;
+
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+
+  position: absolute;
+}
+
+.agendar{
+  display: flex;
+  justify-content: center; /* centraliza horizontal */
+  align-items: center;   
+  color: #11291e;
+  background-color: #a2cfba;
+  width: 200px;
+  height: 50px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+
+/* HOVER */
+.faqitens:hover h1 {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.faqitens:hover p {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.faqitensa:hover h1 {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.faqitensa:hover p {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .container h1{
+    text-align: center;
+  font-size: 40px;
+  color: #313131;
+}
+  .faq {
+    grid-template-columns: 1fr;
+  }
+}
