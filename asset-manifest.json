@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Site-Doutor-Victor/static/css/main.92277fa6.css",
+    "main.js": "/Site-Doutor-Victor/static/js/main.e37b8b2b.js",
+    "static/media/victorsobremim.png": "/Site-Doutor-Victor/static/media/victorsobremim.9a3122dbcec89cbece64.png",
+    "static/media/victor.png": "/Site-Doutor-Victor/static/media/victor.f931b836c5892299de1a.png",
+    "static/media/fundoteste3.jpg": "/Site-Doutor-Victor/static/media/fundoteste3.453875f5e19d8ae09f89.jpg",
+    "index.html": "/Site-Doutor-Victor/index.html",
+    "main.92277fa6.css.map": "/Site-Doutor-Victor/static/css/main.92277fa6.css.map",
+    "main.e37b8b2b.js.map": "/Site-Doutor-Victor/static/js/main.e37b8b2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92277fa6.css",
+    "static/js/main.e37b8b2b.js"
+  ]
+}
